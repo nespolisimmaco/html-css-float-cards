@@ -19,12 +19,13 @@ body {
     clear: both;
 }
 
-/* Style */
+/* STYLE */
 .card img {
     width: 90px;
     float: left;
     margin-right: 1rem;
     max-width: 100%;
+    border-radius: 10px;
 }
 
 a {
@@ -57,7 +58,6 @@ p {
 
 /* Cards section */
 .row{
-    border: 1px solid blueviolet;
     margin-bottom: 2rem;
 }
 
@@ -70,4 +70,5 @@ p {
 .card {
     background-color: #0f0e17;
     color: white;
+    border-radius: 10px;
 }
