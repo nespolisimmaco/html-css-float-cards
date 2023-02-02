@@ -58,6 +58,7 @@ p {
 /* Cards section */
 .row{
     border: 1px solid blueviolet;
+    margin-bottom: 2rem;
 }
 
 .col {
@@ -69,4 +70,8 @@ p {
 .card {
     background-color: #0f0e17;
     color: white;
+}
+
+.container {
+    border: 5px solid darkblue;
 }
