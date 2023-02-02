@@ -1,0 +1,57 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: 'Fredoka', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style */
+.card img {
+    width: 80px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #3db7e2;
+    cursor: pointer;
+}
+
+/* MAIN */
+/* Title */
+h1 {
+    text-align: center;
+    color: #e53170;
+    margin: 1em 0;
+}
+
+/* Paragraph */
+p {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* Cards section */
+.cards{
+    border: 1px solid blueviolet;
+}
+
+.card {
+    background-color: #0f0e17;
+    color: white;
+    width: calc(100% / 3);
+}
