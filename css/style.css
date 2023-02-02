@@ -13,7 +13,7 @@ body {
     max-width: 1000px;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -21,14 +21,24 @@ body {
 
 /* Style */
 .card img {
-    width: 80px;
+    width: 90px;
     float: left;
+    margin-right: 1rem;
+    max-width: 100%;
 }
 
 a {
     text-decoration: none;
     color: #3db7e2;
     cursor: pointer;
+}
+
+.info {
+    padding: .7rem;
+}
+
+.info h4, .info div {
+    margin-bottom: 5px;
 }
 
 /* MAIN */
@@ -46,12 +56,17 @@ p {
 }
 
 /* Cards section */
-.cards{
+.row{
     border: 1px solid blueviolet;
+}
+
+.col {
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin-right: 20px;
 }
 
 .card {
     background-color: #0f0e17;
     color: white;
-    width: calc(100% / 3);
 }
