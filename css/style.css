@@ -43,17 +43,19 @@ a {
 }
 
 /* MAIN */
-/* Title */
-h1 {
-    text-align: center;
-    color: #e53170;
-    margin: 1em 0;
+/* Section */
+section {
+    margin: 1rem 0 2rem;
 }
 
-/* Paragraph */
-p {
+section h1 {
     text-align: center;
-    margin-bottom: 2em;
+    color: #e53170;
+    margin: 1rem 0;
+}
+
+section p {
+    text-align: center;
 }
 
 /* Cards section */
